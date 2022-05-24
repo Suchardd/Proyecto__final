@@ -1,0 +1,136 @@
+.tarjeta__contenedora--xbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    grid-template-areas:"xbox-1 xbox-2"
+                        "xbox-3 xbox-4"
+                        "xbox-5 xbox-6";
+    margin: 20px;
+}
+
+.tarjeta__contenedora--xbox img {
+    height: 300px;
+    width: 300px;
+}
+
+.tarjeta-xbox {
+    grid-area: xbox-1;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto-xbox {
+    text-align: center;
+}
+
+.tarjeta__xbox--2 {
+    grid-area: xbox-2;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__xbox--2 {
+    text-align: center;
+}
+
+.tarjeta__xbox--3 {
+    grid-area: xbox-3;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__xbox--3 {
+    text-align: center;
+}
+
+.tarjeta__xbox--4 {
+    grid-area: xbox-4;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__xbox--4 {
+    text-align: center;
+}
+
+.tarjeta__xbox--5 {
+    grid-area: xbox-5;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__xbox--5 {
+    text-align: center;
+}
+
+.tarjeta__xbox--6 {
+    grid-area: xbox-6;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__xbox--6 {
+    text-align: center;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1145px) {
+    .tarjeta__contenedora--xbox img {
+        height: 250px;
+        width: 250px;
+    }
+    
+    .tarjeta__contenedora--xbox {
+        @include grid-responsive-xbox;
+    }
+}
+
+@media screen and (min-width: 1145px) {
+    .tarjeta__contenedora--xbox {
+        @include grid-responsive-xbox-1145px;
+    }
+}
+
+@media screen and (min-width:648px) {
+    .tarjeta-xbox {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta__xbox--2 {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta__xbox--3 {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta__xbox--4 {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta__xbox--5 {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta__xbox--6 {
+        margin: 20px 20px 60px;
+    }
+}

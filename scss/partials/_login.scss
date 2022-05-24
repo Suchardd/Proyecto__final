@@ -1,0 +1,46 @@
+.form {
+    width: 400px;
+    background: #222222;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.login {
+    border: 0;
+}
+
+.register {
+    font-size: 22px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #1f53c5;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.form p {
+    text-align: center;
+    height: 40px;
+    font-size: 18px;
+}
+
+.form a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.form .botton {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}

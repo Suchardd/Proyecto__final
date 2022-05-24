@@ -1,0 +1,134 @@
+@import "../sass2/mixin";
+
+.tarjeta-contenedora img {
+    height: 300px;
+    width: 300px;
+}
+
+.tarjeta-pc1 {
+    grid-area: etiqueta-1;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto {
+    text-align: center;
+}
+
+.tarjeta-pc2 {
+    grid-area: etiqueta-2;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto-2 {
+    text-align: center;
+}
+
+.tarjeta-pc3 {
+    grid-area: etiqueta-3;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto-3 {
+    text-align: center;
+}
+
+.tarjeta-pc4 {
+    grid-area: etiqueta-4;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto-4 {
+    text-align: center;
+}
+
+.tarjeta-pc5 {
+    grid-area: etiqueta-5;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto-5 {
+    text-align: center;
+}
+
+.tarjeta-pc6 {
+    grid-area: etiqueta-6;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto-6 {
+    text-align: center;
+}
+
+.clase1 {
+    color: white;
+}
+
+@media screen and (min-width:1145px) {
+    .tarjeta-contenedora {
+        @include grid-responsive-pc-1145px;
+    }
+
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 1145px) {
+    .tarjeta-contenedora img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .tarjeta-contenedora {
+        @include grid-responsive-650px;
+    }
+
+}
+
+@media screen and (min-width:648px) {
+    .tarjeta-pc1 {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta-pc2 {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta-pc3 {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta-pc4 {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta-pc5 {
+        margin: 20px 20px 60px;
+    }
+
+    .tarjeta-pc6 {
+        margin: 20px 20px 60px;
+    }
+}

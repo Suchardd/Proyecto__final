@@ -1,0 +1,421 @@
+.barra {
+  margin: 0px 0px 50px 0px;
+  font-size: 18px; }
+
+.navbar a {
+  color: white; }
+
+.carrousel img {
+  margin: auto; }
+
+.grid-value {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  justify-items: center;
+  grid-template-areas: "img-1 img-2" "img-3 img-3";
+  margin: 20px 50px; }
+
+.grid-value img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+  padding: 20px; }
+
+.grid-value a :hover {
+  opacity: 0.5; }
+
+.img-1 {
+  grid-area: img-1; }
+
+.img-2 {
+  grid-area: img-2; }
+
+.img-3 {
+  grid-area: img-3; }
+
+@media screen and (max-width: 666px) {
+  .grid-value img {
+    height: 250px;
+    width: 250px; }
+  .grid-value {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    grid-template-areas: "img-1" "img-2" "img-3" "img-3";
+    margin: 20px 50px; } }
+
+body {
+  background: linear-gradient(to top, rgba(233, 231, 238, 0.623) 0%, rgba(206, 209, 250, 0.74) 100%), url("https://xboxplay.games/uploadStream/12165.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
+
+.tarjeta-contenedora img {
+  height: 300px;
+  width: 300px; }
+
+.tarjeta-pc1 {
+  grid-area: etiqueta-1;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto {
+  text-align: center; }
+
+.tarjeta-pc2 {
+  grid-area: etiqueta-2;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto-2 {
+  text-align: center; }
+
+.tarjeta-pc3 {
+  grid-area: etiqueta-3;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto-3 {
+  text-align: center; }
+
+.tarjeta-pc4 {
+  grid-area: etiqueta-4;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto-4 {
+  text-align: center; }
+
+.tarjeta-pc5 {
+  grid-area: etiqueta-5;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto-5 {
+  text-align: center; }
+
+.tarjeta-pc6 {
+  grid-area: etiqueta-6;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto-6 {
+  text-align: center; }
+
+.clase1 {
+  color: white; }
+
+@media screen and (min-width: 1145px) {
+  .tarjeta-contenedora {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    grid-template-areas: "etiqueta-1 etiqueta-2" "etiqueta-3 etiqueta-4" "etiqueta-5 etiqueta-6";
+    margin: 20px 50px; } }
+
+@media screen and (min-width: 650px) and (max-width: 1145px) {
+  .tarjeta-contenedora img {
+    height: 250px;
+    width: 250px; }
+  .tarjeta-contenedora {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+    justify-items: center;
+    grid-template-areas: "etiqueta-1" "etiqueta-2" "etiqueta-3" "etiqueta-4" "etiqueta-5" "etiqueta-6";
+    margin: 20px 50px; } }
+
+@media screen and (min-width: 648px) {
+  .tarjeta-pc1 {
+    margin: 20px 20px 60px; }
+  .tarjeta-pc2 {
+    margin: 20px 20px 60px; }
+  .tarjeta-pc3 {
+    margin: 20px 20px 60px; }
+  .tarjeta-pc4 {
+    margin: 20px 20px 60px; }
+  .tarjeta-pc5 {
+    margin: 20px 20px 60px; }
+  .tarjeta-pc6 {
+    margin: 20px 20px 60px; } }
+
+.form {
+  width: 400px;
+  background: #222222;
+  padding: 30px;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000; }
+
+.login {
+  border: 0; }
+
+.register {
+  font-size: 22px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #1f53c5;
+  font-family: sans-serif;
+  font-size: 18px; }
+
+.form p {
+  text-align: center;
+  height: 40px;
+  font-size: 18px; }
+
+.form a:hover {
+  color: white;
+  text-decoration: underline; }
+
+.form .botton {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px; }
+
+.tarjeta__contenedora--ps4 img {
+  height: 300px;
+  width: 300px; }
+
+.tarjeta-ps4 {
+  grid-area: ps4-1;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto-ps4 {
+  text-align: center; }
+
+.tarjeta__ps4--2 {
+  grid-area: ps4-2;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__ps4--2 {
+  text-align: center; }
+
+.tarjeta__ps4--3 {
+  grid-area: ps4-3;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__ps4--3 {
+  text-align: center; }
+
+.tarjeta__ps4--4 {
+  grid-area: ps4-4;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__ps4--4 {
+  text-align: center; }
+
+.tarjeta__ps4--5 {
+  grid-area: ps4-5;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__ps4--5 {
+  text-align: center; }
+
+.tarjeta__ps4--6 {
+  grid-area: ps4-6;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__ps4--6 {
+  text-align: center; }
+
+@media screen and (min-width: 650px) and (max-width: 1145px) {
+  .tarjeta__contenedora--ps4 img {
+    height: 250px;
+    width: 250px; }
+  .tarjeta__contenedora--ps4 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+    justify-items: center;
+    grid-template-areas: "ps4-1" "ps4-2" "ps4-3" "ps4-4" "ps4-5" "ps4-6";
+    margin: 20px 50px; } }
+
+@media screen and (min-width: 1145px) {
+  .tarjeta__contenedora--ps4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    grid-template-areas: "ps4-1 ps4-2" "ps4-3 ps4-4" "ps4-5 ps4-6";
+    margin: 20px 50px; } }
+
+@media screen and (min-width: 648px) {
+  .tarjeta-ps4 {
+    margin: 20px 20px 60px; }
+  .tarjeta__ps4--2 {
+    margin: 20px 20px 60px; }
+  .tarjeta__ps4--3 {
+    margin: 20px 20px 60px; }
+  .tarjeta__ps4--4 {
+    margin: 20px 20px 60px; }
+  .tarjeta__ps4--5 {
+    margin: 20px 20px 60px; }
+  .tarjeta__ps4--6 {
+    margin: 20px 20px 60px; } }
+
+.tarjeta__contenedora--xbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  justify-items: center;
+  grid-template-areas: "xbox-1 xbox-2" "xbox-3 xbox-4" "xbox-5 xbox-6";
+  margin: 20px; }
+
+.tarjeta__contenedora--xbox img {
+  height: 300px;
+  width: 300px; }
+
+.tarjeta-xbox {
+  grid-area: xbox-1;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto-xbox {
+  text-align: center; }
+
+.tarjeta__xbox--2 {
+  grid-area: xbox-2;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__xbox--2 {
+  text-align: center; }
+
+.tarjeta__xbox--3 {
+  grid-area: xbox-3;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__xbox--3 {
+  text-align: center; }
+
+.tarjeta__xbox--4 {
+  grid-area: xbox-4;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__xbox--4 {
+  text-align: center; }
+
+.tarjeta__xbox--5 {
+  grid-area: xbox-5;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__xbox--5 {
+  text-align: center; }
+
+.tarjeta__xbox--6 {
+  grid-area: xbox-6;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  background-color: #83818152;
+  border-radius: 8px; }
+
+.texto__xbox--6 {
+  text-align: center; }
+
+@media screen and (min-width: 650px) and (max-width: 1145px) {
+  .tarjeta__contenedora--xbox img {
+    height: 250px;
+    width: 250px; }
+  .tarjeta__contenedora--xbox {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+    justify-items: center;
+    grid-template-areas: "xbox-1" "xbox-2" "xbox-3" "xbox-4" "xbox-5" "xbox-6";
+    margin: 20px 50px; } }
+
+@media screen and (min-width: 1145px) {
+  .tarjeta__contenedora--xbox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    justify-items: center;
+    grid-template-areas: "xbox-1 xbox-2" "xbox-3 xbox-4" "xbox-5 xbox-6";
+    margin: 20px 50px; } }
+
+@media screen and (min-width: 648px) {
+  .tarjeta-xbox {
+    margin: 20px 20px 60px; }
+  .tarjeta__xbox--2 {
+    margin: 20px 20px 60px; }
+  .tarjeta__xbox--3 {
+    margin: 20px 20px 60px; }
+  .tarjeta__xbox--4 {
+    margin: 20px 20px 60px; }
+  .tarjeta__xbox--5 {
+    margin: 20px 20px 60px; }
+  .tarjeta__xbox--6 {
+    margin: 20px 20px 60px; } }

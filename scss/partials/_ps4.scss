@@ -1,0 +1,122 @@
+
+.tarjeta__contenedora--ps4 img {
+    height: 300px;
+    width: 300px;
+}
+
+.tarjeta-ps4 {
+    grid-area: ps4-1;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto-ps4 {
+    text-align: center;
+}
+
+.tarjeta__ps4--2 {
+    grid-area: ps4-2;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__ps4--2 {
+    text-align: center;
+}
+
+.tarjeta__ps4--3 {
+    grid-area: ps4-3;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__ps4--3 {
+    text-align: center;
+}
+
+.tarjeta__ps4--4 {
+    grid-area: ps4-4;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__ps4--4 {
+    text-align: center;
+}
+
+.tarjeta__ps4--5 {
+    grid-area: ps4-5;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__ps4--5 {
+    text-align: center;
+}
+
+.tarjeta__ps4--6 {
+    grid-area: ps4-6;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    background-color: #83818152;
+    border-radius: 8px;
+}
+
+.texto__ps4--6 {
+    text-align: center;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1145px) {
+    .tarjeta__contenedora--ps4 img {
+        height: 250px;
+        width: 250px;
+    }
+    .tarjeta__contenedora--ps4 {
+        @include grid-responsive-ps4;
+}
+
+}
+
+@media screen and (min-width:1145px) {
+    .tarjeta__contenedora--ps4 {
+        @include grid-responsive-ps4-1145px
+}
+
+}
+
+@media screen and (min-width:648px) {
+    .tarjeta-ps4 {
+        margin: 20px 20px 60px;
+    }
+    .tarjeta__ps4--2 {
+        margin: 20px 20px 60px;
+    }
+    .tarjeta__ps4--3 {
+        margin: 20px 20px 60px;
+    }
+    .tarjeta__ps4--4 {
+        margin: 20px 20px 60px;
+    }
+    .tarjeta__ps4--5 {
+        margin: 20px 20px 60px;
+    }
+    .tarjeta__ps4--6 {
+        margin: 20px 20px 60px;
+    }
+}

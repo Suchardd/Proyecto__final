@@ -1,0 +1,75 @@
+
+@mixin grid-responsive-pc-1145px {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        justify-items: center;
+        grid-template-areas:"etiqueta-1 etiqueta-2"
+                            "etiqueta-3 etiqueta-4"
+                            "etiqueta-5 etiqueta-6";
+        margin: 20px 50px;
+}
+
+@mixin grid-responsive-650px {
+    display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        justify-items: center;
+        grid-template-areas: "etiqueta-1"
+            "etiqueta-2"
+            "etiqueta-3"
+            "etiqueta-4"
+            "etiqueta-5"
+            "etiqueta-6";
+        margin: 20px 50px;
+}
+
+@mixin grid-responsive-ps4 {
+    display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        justify-items: center;
+        grid-template-areas:"ps4-1"
+                            "ps4-2"
+                            "ps4-3"
+                            "ps4-4"
+                            "ps4-5"
+                            "ps4-6";
+        margin: 20px 50px;
+}
+
+@mixin grid-responsive-ps4-1145px {
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        justify-items: center;
+        grid-template-areas:"ps4-1 ps4-2"
+                            "ps4-3 ps4-4"
+                            "ps4-5 ps4-6";
+        margin: 20px 50px;
+}
+
+@mixin grid-responsive-xbox {
+    display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, auto);
+        justify-items: center;
+        grid-template-areas:"xbox-1"
+                            "xbox-2"
+                            "xbox-3"
+                            "xbox-4"
+                            "xbox-5"
+                            "xbox-6";
+        margin: 20px 50px;
+}
+
+@mixin grid-responsive-xbox-1145px {
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        justify-items: center;
+        grid-template-areas:"xbox-1 xbox-2"
+                            "xbox-3 xbox-4"
+                            "xbox-5 xbox-6";
+        margin: 20px 50px;
+}
