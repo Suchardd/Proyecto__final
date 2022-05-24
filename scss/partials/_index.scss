@@ -63,3 +63,22 @@
     margin: 20px 50px;
     }
 }
+
+.copyright {
+    margin-top: 20px;
+    color: rgba(64, 55, 55, 0.499);
+};
+
+.copyright hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(64, 55, 55, 0.499);
+}
+
+.copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+    border-radius: none
+}

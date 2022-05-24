@@ -46,6 +46,22 @@
     grid-template-areas: "img-1" "img-2" "img-3" "img-3";
     margin: 20px 50px; } }
 
+.copyright {
+  margin-top: 20px;
+  color: rgba(64, 55, 55, 0.499); }
+
+.copyright hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(64, 55, 55, 0.499); }
+
+.copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+  border-radius: none; }
+
 body {
   background: linear-gradient(to top, rgba(233, 231, 238, 0.623) 0%, rgba(206, 209, 250, 0.74) 100%), url("https://xboxplay.games/uploadStream/12165.jpg");
   background-repeat: no-repeat;
